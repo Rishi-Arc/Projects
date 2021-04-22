@@ -1,0 +1,152 @@
+body { 
+    margin: 0; 
+    padding-top: 800px;
+}
+.profile { 
+    width: 255px;
+    margin-bottom: 100px; 
+    border-radius: 10%;
+}
+section{
+  width:100%;
+  height:100%;
+}
+#welcome {
+    position: absolute; 
+    overflow: hidden; 
+    height: 800px;
+    color: #FFFFFF;
+    left: 0;
+    top: 0; 
+    bottom: 0;
+    right: 0; 
+    opacity: 0.83;
+    background: linear-gradient(#8bf6ff 10%, #ffffcf 40%, #ffd54f 50%, #ffa726 70%, #ff5722 80%); 
+    display: table; 
+    width: 100%; 
+    height: 100%;
+}
+h1 {
+    font-size: 40px;
+    line-height: 1.2; 
+    font-family: 'Lato', sans-serif; 
+    font-weight: 300; 
+}
+#name { 
+    font-size: 30px;
+    line-height: 1.2;
+   font-family: 'RocknRoll One', sans-serif;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 300; 
+    line-height: 1.2;
+    font-family: 'Cinzel', serif;
+}
+#bio {
+    padding: 50px;
+    text-align: center;
+    color: darkslateblue;
+    display: table; 
+    width: 100%; 
+    height: 100%;
+    font-size: 42px; 
+}
+
+
+p {
+    max-width: 450px;
+    margin: 25px auto; 
+    font-size: 17px;
+    line-height: 1.3;
+}
+.parallax-inner { 
+    display: table-cell;
+    position: relative;
+    text-align: center; 
+    vertical-align: middle;
+}
+    .menu {
+    list-style: none;
+    font-family: cursive;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    z-index: 10;
+    cursor: pointer;
+}
+.links{
+    float:left;
+    color: crimson;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+   font-family: 'Cinzel', serif;
+font-family: 'RocknRoll One', sans-serif;
+    font-size: 20px;
+    
+}
+.links:hover{
+    background:linear-gradient( #ff5722 10%, #ffffcf 40%, #ffd54f 50%, #ffa726 70%, #ff5722 80%); 
+    
+}
+html{
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+}
+.article:hover{
+    color:chartreuse;
+}
+iframe{
+   float:left;
+   margin:50px;
+}
+#about{
+    width:100%;
+    text-align:left;
+    margin: 50px;
+    padding: 40px;
+    
+    
+}
+#reviews {
+    width: 100%;
+    text-align: left;
+    margin: 50px;
+    padding: 40px;
+}
+.line { 
+    height: 6px;
+    background-color: #000;
+    width: 70px; 
+    margin: 8px auto;
+}
+
+
+h3{
+    text-align: left;
+    font-size: 40px;
+    font-weight: 300;
+    margin-top: 50px
+}
+
+#contact{
+    width:100%;
+    text-align:left;
+    float:left;
+    
+}
+container{
+    width:100%;
+    height:100%;
+     text-align: left;
+    font-size: 40px;
+    font-weight: 200;
+    margin-top: 50px;
+   margin:40px;
+    padding:50px;
+}
